@@ -1,0 +1,311 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+/*===========
+Typography
+============*/
+.help {
+  color: hsla(211, 35%, 17%, 1);
+}
+h1 {
+  color: #1d2c3c;
+  font-size: 30px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+h2 {
+  font-size: 0.75em;
+  font-weight: 700;
+}
+h6 {
+  color: hsla(213, 10%, 44%, 1);
+}
+strong {
+  color: #fff;
+  font-size: 3.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.015px;
+}
+.slash-year {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.015px;
+}
+.aside-title {
+  margin-top: 1em;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.01px;
+}
+.service-terms {
+  color: #31708f;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/*===========
+image-styling
+============*/
+.stripe-img {
+  width: 70px;
+  flex-shrink: 0;
+}
+
+.check-img {
+  width: 22px;
+  margin-bottom: 1.2em;
+  flex-shrink: 0;
+}
+
+.Kirk-img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+/*===========
+header-styling
+============*/
+nav,
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+nav,
+li {
+  margin-left: 2em;
+}
+
+nav,
+a {
+  text-decoration: none;
+  color: #1d2c3c;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.01px;
+}
+.account-link {
+  padding: 0.25em;
+  border-radius: 6px;
+  border: 2px solid #646e7a;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #e0e6ea;
+  margin: 0 2.5em;
+  padding-top: 1em;
+}
+/*=================
+Containers-styling
+==================*/
+.checkout-container {
+  border-bottom: 2px solid hsla(216, 33%, 97%, 1);
+  margin: 1em;
+}
+
+.container-flex {
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-shrink: 0;
+}
+.wrapper {
+  background-color: hsla(204, 33%, 97%, 1);
+  margin: 0 auto;
+  width: 1200px;
+}
+.first-section {
+  max-width: 800px;
+  margin: 2em auto;
+  display: flex;
+  justify-content: center;
+}
+.first-section-wrapper {
+  width: 488px;
+  margin: 0 auto;
+  padding-left: 1em;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05),
+    0px 15px 35px 0px rgba(43, 64, 78, 0.1);
+}
+aside {
+  border-radius: 0px 6px 6px 0px;
+  background: #1179bf;
+  max-width: 312px;
+  margin: 0 auto;
+  flex-shrink: 0;
+  color: #fff;
+}
+.aside-wrapper {
+  padding: 1.5em 0;
+}
+.detail-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.container-email {
+  margin-left: 1em;
+  flex-shrink: 0;
+}
+.first-underline {
+  border-bottom: 1px solid #edeff2;
+  padding: 0.75em 0;
+}
+.support {
+  text-align: center;
+}
+.stripe-container {
+  width: 80px;
+  margin: 0 auto;
+}
+.year1-tag {
+  font-style: italic;
+  font-size: 0.75em;
+}
+.info-1 {
+  display: flex;
+  margin-left: 1.25em;
+  padding: 0.75em 0;
+}
+.number {
+  width: 1.65rem;
+  height: 1.65rem;
+  border: 1px solid #1179bf;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 0.75em;
+  color: #1179bf;
+}
+/*==================
+clients-site-styling
+===================*/
+.Kirk {
+  display: flex;
+}
+
+.underline {
+  width: 224px;
+  height: 20px;
+  flex-shrink: 0;
+  border-bottom: 1px solid hsla(189, 100%, 86%, 1);
+}
+.quote-wrapper {
+  width: 229px;
+  padding-top: 1.25em;
+  flex-shrink: 0;
+}
+.ftp-tag {
+  font-style: italic;
+  font-weight: 400px;
+  font-size: 0.85rem;
+}
+.bottom-2 {
+  width: 160px;
+  font-size: 0.85rem;
+  color: #fff;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.008px;
+  border-bottom: 2px solid #b9f5ff;
+}
+.clients-title {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.008px;
+}
+.Freelancer {
+  padding-bottom: 0.25em;
+  display: flex;
+  flex-direction: column;
+}
+.aside-wrapper {
+  margin-left: 2em;
+}
+.checks {
+  display: flex;
+  flex-direction: column;
+}
+.p-tags {
+  display: flex;
+  flex-direction: column;
+}
+.extra {
+  display: flex;
+  padding-top: 1em;
+}
+.extra-info-p {
+  font-weight: 200px;
+  font-size: 0.68rem;
+  margin-left: 0.45em;
+}
+.clients-sites {
+  width: 310px;
+}
+/*==================
+button/inputs/label
+====================*/
+label {
+  font-size: 0.65rem;
+  font-weight: 400;
+}
+button {
+  margin-top: 1em;
+  height: 40px;
+  margin-left: 1em;
+  border: none;
+  border-radius: 5px;
+  background: #038e7d;
+  color: #fff;
+}
+.Card-input,
+button {
+  width: 400px;
+}
+.email-input {
+  width: 300px;
+}
+input {
+  display: block;
+  color: #646e7a;
+  border-radius: 5px;
+  border: none;
+  width: 190px;
+  margin-top: 0.25em;
+  margin-bottom: 1em;
+  padding-left: 0.75em;
+  padding-top: 0.45em;
+  padding-bottom: 0.45em;
+  background: #edeff2;
+}
+/*===============
+Footer-styling
+===============*/
+footer {
+  text-align: center;
+  color: #636b6f;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 1em;
+}
